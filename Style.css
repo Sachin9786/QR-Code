@@ -1,44 +1,47 @@
 body{
-    max-width: 1200px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
+    max-width: 1200 px;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Baloo 2', sans-serif;
-font-family: 'Outfit', sans-serif;
-margin: 20px 20px 20px 20px;
-
-}
-.container{
+    font-family: 'Outfit', sans-serif;
     display: flex;
-    border: 4px solid white;
-    border-radius:0.7rem;
-    width: 180px;
-    height: 500px;
-    padding: 0.2rem 4rem;
-    flex-direction: column;
-    align-items:center;
     justify-content: center;
-    background-color: white;
-    margin: 40px;
+    margin: 20px 20px 20px 20px;
+    align-items: center;
 
-
-    
 }
+
+.container{
+    max-width: 375px;
+    display:flex;
+    border: 4px white;
+    border-radius:0.7rem;
+    width: 250px;
+    height: 570px;
+    padding: 0.2rem 4rem;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+}
+
 img{
-    width: 270px;
+     width: 330px;
     height: 340px;
 border-radius: 0.7rem;
     margin: 1rem 1rem 1rem 1rem;
     
 }
 
-h1{
-    text-align: center;
-    font-size: 1rem;
+h1{text-align: center;
+    font-size: 1.2rem;
     font-weight: 900;
 }
+
 p{
-    text-align: center;
+      text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    overflow-x: auto;
 
 }
